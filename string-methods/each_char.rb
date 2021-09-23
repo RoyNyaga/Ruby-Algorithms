@@ -1,2 +1,2 @@
- a = "hello".each_char {|c| print c, ' ' }
+a = "hello".each_char {|c| print c, ' ' }
 p a

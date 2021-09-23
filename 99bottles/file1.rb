@@ -1,0 +1,1 @@
+puts 8.downto(0){| i | print i, " "}
