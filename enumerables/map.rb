@@ -1,4 +1,4 @@
+require "ostruct"
+users = [ {id: 1, name: "gael-bintu",}, {id: 2, name: "nyaga"}, {id: 3, name: "Andre"} ]
 
-
-# Behaves the same like the select method. Always returns the complete array.
-p (1..4).collect { |i| i*2 if i%2==0  } # returns nill for elements not meeting the condition
+p users.map{ |user| OpenStruct.new(user).name }.compact.max_by(&:length)
