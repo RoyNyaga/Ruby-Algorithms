@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<event>
+  <id type="integer">248191447</id>
+  <event-type>right_updated</event-type>
+  <timestamp type="datetime">2021-11-03T15:48:44Z</timestamp>
+  <changes>ends</changes>
+  <link rel="self" href="https://staging-movida.bebanjo.net/api/events/248191447"/>
+  <link rel="subject" href="https://staging-movida.bebanjo.net/api/rights/1284024">
+    <subject>
+      <id type="integer">1284024</id>
+      <external-id>Roys-Right-external-id</external-id>
+      <link rel="self" href="https://staging-movida.bebanjo.net/api/rights/1284024"/>
+      <link rel="title" href="https://staging-movida.bebanjo.net/api/titles/3154321"/>
+      <link rel="sourced_schedulings" href="https://staging-movida.bebanjo.net/api/rights/1284024/sourced_schedulings"/>
+    </subject>
+  </link>
+</event>
