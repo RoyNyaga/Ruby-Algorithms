@@ -1,18 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <scheduling>
-    <id type="integer">13665585</id>
-    <put-up type="datetime">2022-08-10T00:00:00Z</put-up>
-    <take-down type="datetime">2023-08-09T23:59:59Z</take-down>
-    <scheduling-type>archive</scheduling-type>
-    <rights-status>cleared</rights-status>
-    <publication-status>invalid</publication-status>
-    <tags>Tag 1,Tag 2</tags>
-    <external-id nil="true"/>
-    <automatic-asset-selection type="boolean">false</automatic-asset-selection>
-    <link rel="self" href="https://staging-movida.bebanjo.net/api/schedulings/13665585"/>
-    <link rel="title" href="https://staging-movida.bebanjo.net/api/titles/3144174"/>
-    <link rel="conflicts" href="https://staging-movida.bebanjo.net/api/schedulings/13665585/conflicts"/>
-    <link rel="publications" href="https://staging-movida.bebanjo.net/api/schedulings/13665585/publications"/>
-    <link rel="platform" href="https://staging-movida.bebanjo.net/api/platforms/7114"/>
-    <link rel="workflow" href="https://staging-movida.bebanjo.net/api/schedulings/13665585/workflow"/>
-    <link rel="metadata" href="https://staging-movida.bebanjo.net/api/schedulings/13665585/metadata"/>
-  </scheduling>
+  <id type="integer">5</id>
+  <external-id/>
+  <put-up type="datetime">2012-02-28T17:20:00+11:00</put-up>
+  <take-down type="datetime">2012-04-01T02:02:03+10:00</take-down>
+  <scheduling-type>archive</scheduling-type>
+  <platform>
+    <id type="integer">5</id>
+    <external-id/>
+    <name>StreamCo</name>
+  </platform>
+  <title>
+    <id type="integer">5</id>
+    <external-id/>
+    <name>The Words</name>
+    <title-type>feature</title-type>
+    <licensor>
+      <name>jlaxTITkd</name>
+    </licensor>
+    <metadata type="document">
+      <categories type="array"></categories>
+      <exclusive type="boolean">true</exclusive>
+      <must-use-images-from-studio type="boolean">false</must-use-images-from-studio>
+      <must-use-synopsis-from-studio type="boolean">false</must-use-synopsis-from-studio>
+      <provider-id/>
+      <short-name>Words</short-name>
+      <short-description>A writer at the peak of literary success discovers the price to pay for stealing another man's work</short-description>
+      <medium-description>Layered romantic drama The Words follows young writer Rory Jansen who finally achieves long sought after literary success after publishing the next great American novel. There's only one catch - he didn't write it.</medium-description>
+      <keywords type="array"></keywords>
+      <genres type="array"></genres>
+      <cast-members type="array">
+        <cast-member>Dennis Quaid</cast-member>
+        <cast-member>John Hannah</cast-member>
+        <cast-member>Jeremy Irons</cast-member>
+        <cast-member>Bradley Cooper</cast-member>
+        <cast-member>Zoe Saldana</cast-member>
+      </cast-members>
+      <directors type="array"></directors>
+      <producers type="array"></producers>
+      <creators type="array"></creators>
+      <scriptwriters type="array">
+        <scriptwriter>Brian Klugman</scriptwriter>
+        <scriptwriter>Lee Sternthal</scriptwriter>
+      </scriptwriters>
+      <narrators type="array"></narrators>
+      <composers type="array"></composers>
+      <release-date type="datetime">2012-01-27T00:00:00+11:00</release-date>
+      <countries type="array">
+        <country>USA</country>
+      </countries>
+    </metadata>
+    <images type="array\"></images>
+    <contributors type="array"></contributors>
+    <clips type="array"></clips>
+  </title>
+  <asset>
+    <id type="integer">5</id>
+    <external-id/>
+    <type/>
+    <name>MPX0001A</name>
+    <description/>
+    <runtime type="duration">01:32:21.000</runtime>
+    <metadata type="document">
+      <languages type="array"></languages>
+      <subtitles type="array"></subtitles>
+      <rating>PG</rating>
+      <warnings type="array"></warnings>
+      <airplay type="boolean">true</airplay>
+      <airplay-hd type="boolean">true</airplay-hd>
+      <chromecast type="boolean">true</chromecast>
+      <chromecast-hd type="boolean">true</chromecast-hd>
+      <number-of-registered-devices/>
+      <concurrent-streams/>
+      <studio-media-file-url/>
+      <s3-location/>
+      <trailer-location/>
+      <storyboard-location/>
+      <media-id/>
+      <transcode-complete type="boolean">false</transcode-complete>
+    </metadata>
+    <renditions type="array"></renditions>
+    <segments type="array"></segments>
+  </asset>
+</scheduling>
+
+

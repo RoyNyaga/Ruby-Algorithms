@@ -26,14 +26,14 @@ class Food
   end
 end
 
-# dish = Food.new 
-# period = const_get("morning")
-# dish.period
+dish = Food.new 
+period = const_get("morning")
+dish.period
 
-# def serving(period)
-#   dish = Food.new 
-#   dish.period.constantize
-# end 
+def serving(period)
+  dish = Food.new 
+  dish.period.constantize
+end 
 
-# serving("morning")
+serving("morning")
 
